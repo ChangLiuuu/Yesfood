@@ -27,12 +27,17 @@ html {
 }
 
 section {
-  margin: 80px 0;
+  margin: 60px 0;
+}
+
+.box {
+  padding: 1%;
 }
 
 /* -------HEADING------- */
 h1,
-h2 {
+h2,
+h3 {
   font-weight: 300;
   text-transform: uppercase;
   letter-spacing: 1px;
@@ -50,7 +55,44 @@ h2 {
   font-size: 180%;
   word-spacing: 2px;
   text-align: center;
-  margin-bottom: 30px;
+  margin-bottom: 20px;
+}
+
+h2:after {
+  display: block;
+  width: 200px;
+  height: 3px;
+  margin: 0px auto;
+  margin-top: 30px;
+  background-color: #E67E22;
+  content: " ";
+}
+
+h3 {
+  font-size: 105%;
+  margin: 15px 0;
+}
+
+/* -------PARAGRAPH------- */
+.head-paragraph {
+  width: 70%;
+  line-height: 145%;
+  margin: 0 15%;
+  margin-bottom: 15px;
+}
+
+.box p {
+  font-size: 90%;
+  line-height: 145%;
+  word-spacing: 1px;
+}
+
+/* -------ICONS------- */
+.icon-big {
+  display: block;
+  font-size: 250%;
+  color: #E67E22;
+  margin-bottom: -10px;
 }
 
 /* -------BUTTON------- */
@@ -147,4 +189,8 @@ header {
 .main-nav li a:active {
   border-bottom: 2px solid #e67e22;
 }
+
+/* --------------------------------- */
+/* SECTION */
+/* --------------------------------- */
 
