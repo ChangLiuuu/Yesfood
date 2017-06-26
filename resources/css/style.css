@@ -77,7 +77,7 @@ h3 {
 .head-paragraph {
   width: 70%;
   line-height: 145%;
-  margin: 0 15%;
+  margin: 5% 15%;
   margin-bottom: 15px;
 }
 
@@ -90,9 +90,8 @@ h3 {
 /* -------ICONS------- */
 .icon-big {
   display: block;
-  font-size: 250%;
+  font-size: 260%;
   color: #E67E22;
-  margin-bottom: -10px;
 }
 
 /* -------BUTTON------- */
@@ -160,7 +159,7 @@ header {
   height: 70px;
   with: auto;
   float: left;
-  margin-top: 20px;
+  margin-top: 40px;
 }
 
 .main-nav {
@@ -191,6 +190,56 @@ header {
 }
 
 /* --------------------------------- */
-/* SECTION */
+/* FEATURES */
 /* --------------------------------- */
 
+.section-feature {
+  margin: 60px 0;
+}
+
+.section-feature .head-paragraph {
+  margin-bottom: 30px;
+}
+
+/* --------------------------------- */
+/* MEALS */
+/* --------------------------------- */
+
+.section-meals {
+  padding: 0;
+  margin: 50px 0;
+}
+
+.meals-showcase {
+  list-style: none;
+  width: 100%;
+}
+
+.meals-showcase li {
+  float: left;
+  width: 25%;
+  margin: 0;
+}
+
+.meal-photo {
+  width: 100%;
+  margin: 0;
+  overflow: hidden;
+  background-color: black;
+}
+
+.meal-photo img {
+  opacity: 0.7;
+  width: 100%;
+  height: auto;
+  transform: scale(1.20);
+
+  transition: transform 0.5s, opacity 0.5s;
+
+
+}
+
+.meal-photo img:hover {
+  opacity: 1;
+  transform: scale(1.05);
+}
