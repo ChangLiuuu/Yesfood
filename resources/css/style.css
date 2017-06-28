@@ -329,6 +329,8 @@ header {
   width: 100%;
   height: auto;
   margin-bottom: 20px;
+  border: 1px solid white;
+  border-radius: 10px;
 }
 
 .city-features {
@@ -412,17 +414,74 @@ cite img {
 /* --------------------------------- */
 
 .section-plan {
-  background-color: #F0F0F0;
+  background-color: #f0f0f0;
   margin-top: -60px;
   padding: 50px 0;
 }
 
-.plan-price {
+.plan-box {
+  background-color: white;
+  border: 1px solid #f0f0f0;
+  border-radius: 13px;
+  box-shadow: 5px 5px 50px #8b8b8b;
+  width: 90%;
+  margin: 0 5%;
 
+
+}
+
+.plan-box div {
+  border-bottom: 2px solid #F0F0F0;
+  margin: 5px;
+  padding: 5px 20px;
+}
+
+
+.plan-box div:last-child {
+  text-align: center;
+  padding: 15px;
+  border-bottom: none;
+}
+
+.plan-box ul {
+  list-style: none;
+  font-size: 90%;
+}
+
+.plan-price {
+  font-size: 300%;
+  color: #E67E22;
+  font-weight: 200;
+  padding-bottom: 10px;
+}
+
+.plan-price span {
+  font-size: 45%;
+  color: #E67E22;
 }
 
 .plan-per-meal-price {
-
+  font-size: 90%;
 }
+
+.plan-per-meal-price span {
+  font-size: 105%;
+  color: #E67E22;
+}
+
+.icon-check {
+  font-size: 200%;
+  font-weight: 300;
+  color: #E67E22;
+  vertical-align: middle;
+  margin-right: 10px;
+}
+
+.plan-box a {
+  margin: 5px;
+  text-align: center;
+  width: 70%;
+}
+
 
 
