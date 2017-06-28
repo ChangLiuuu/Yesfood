@@ -339,28 +339,21 @@ header {
   font-size: 90%;
 }
 
-
 .city-features a:link,
 .city-features a:visited {
   color: #E67E22;
-  border: 1px solid transparent;
-  border-radius: 10px;
-  padding: 0 2px;
-  transition: border 0.2s, background-color 0.2s;
+  border-bottom: 1px solid #E67E22;
+  padding-bottom: 1px;
+  transition: color 0.5s, border-bottom 0.5s;
+  text-decoration: none;
 }
 
 .city-features a:hover,
 .city-features a:active {
-  color: white;
-  border: 1px solid #F39C12;
-  background-color: #F39C12;
-  border-radius: 10px;
-  text-decoration: none;
-
-}
-
-.city-features a: {
-  color: #E67E22;
+  color: #ae6c12;
+  border-bottom: 1px solid transparent;
+  cursor: pointer;
+  transition: color 0.2s, border-bottom 0.2s;
 }
 
 /* --------------------------------- */
@@ -373,7 +366,63 @@ header {
   background-position: center;
   background-size: cover;
   background-attachment: fixed;
+  padding: 5% 0;
 }
 
+.section-comments .col {
+  height: 50%;
+}
+
+blockquote {
+  line-height: 160%;
+  font-style: italic;
+  padding: 2%;
+  margin-top: 5%;
+}
+
+
+blockquote .chinese-comments {
+  font-size: 90%;
+  line-height: 185%;
+}
+
+blockquote:before {
+  display: block;
+  font-size: 400%;
+  color: #BBFFB3;
+  margin-bottom: 10px;
+  content:"\201C";
+}
+
+cite {
+  display: block;
+  font-size: 90%;
+  margin-top: 18%;
+}
+
+cite img {
+  height: 60px;
+  border-radius: 50%;
+  margin-right: 20px;
+  vertical-align: middle;
+}
+
+/* --------------------------------- */
+/* plans */
+/* --------------------------------- */
+
+.section-plan {
+  background-color: #F0F0F0;
+  margin-top: -60px;
+  padding: 50px 0;
+}
+
+.plan-price {
+
+}
+
+.plan-per-meal-price {
+
+}
 
 
