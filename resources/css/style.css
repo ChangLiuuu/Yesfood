@@ -257,10 +257,7 @@ header {
   width: 100%;
   height: auto;
   transform: scale(1.20);
-
   transition: transform 0.5s, opacity 0.5s;
-
-
 }
 
 .meal-photo img:hover {
@@ -300,6 +297,7 @@ header {
 .app-steps:last-of-type {
   margin-bottom: 70px;
 }
+
 .app-steps div {
   display: inline-block;
   border: 2px solid #E67E22;
@@ -314,7 +312,7 @@ header {
   margin-right: 20px;
 }
 
-.btn-app img{
+.btn-app img {
   height: 50px;
   width: auto;
   margin: 0 15px;
@@ -336,6 +334,7 @@ header {
 .city-features {
   margin-top: 10px;
 }
+
 .city-features p {
   padding-left: 35px;
   font-size: 90%;
@@ -426,8 +425,6 @@ cite img {
   box-shadow: 5px 5px 50px #8b8b8b;
   width: 90%;
   margin: 0 5%;
-
-
 }
 
 .plan-box div {
@@ -435,7 +432,6 @@ cite img {
   margin: 5px;
   padding: 5px 20px;
 }
-
 
 .plan-box div:last-child {
   text-align: center;
@@ -478,10 +474,36 @@ cite img {
 }
 
 .plan-box a {
-  margin: 5px;
-  text-align: center;
-  width: 70%;
+   margin: 5px;
+   text-align: center;
+   width: 70%;
 }
 
 
+/* --------------------------------- */
+/* Contact */
+/* --------------------------------- */
+
+.form-contact {
+  width: 60%;
+  margin: 0 auto;
+}
+
+input[type=text],
+input[type=email],
+select,
+textarea {
+  width: 100%;
+  padding: 5px;
+  margin: 2px 0 2px 0;
+}
+
+textarea {
+  height: 150px;
+  width: 450px;
+}
+
+input[type=checkbox] {
+  margin: 10px 10px 10px 0;
+}
 
