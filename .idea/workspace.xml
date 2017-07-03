@@ -2,14 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="36f03dfe-f53b-4384-bd26-1827f9a3f081" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendors/fonts/FontAwesome.otf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendors/fonts/fontawesome-webfont.eot" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendors/fonts/fontawesome-webfont.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendors/fonts/fontawesome-webfont.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendors/fonts/fontawesome-webfont.woff2" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendors/css/font-awesome.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendors/fonts/fontawesome-webfont.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/css/style.css" afterPath="$PROJECT_DIR$/resources/css/style.css" />
     </list>
@@ -26,18 +18,18 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="356">
-              <caret line="416" column="31" lean-forward="false" selection-start-line="416" selection-start-column="31" selection-end-line="416" selection-end-column="31" />
+            <state relative-caret-position="219">
+              <caret line="418" column="64" lean-forward="false" selection-start-line="418" selection-start-column="64" selection-end-line="418" selection-end-column="64" />
               <folding>
                 <element signature="e#1136#1143#0" expanded="true" />
                 <element signature="e#3931#3938#0" expanded="true" />
                 <element signature="e#9940#9946#1" expanded="true" />
                 <element signature="e#12043#12049#1" expanded="true" />
                 <element signature="e#12275#12281#0" expanded="true" />
-                <element signature="e#12649#12655#0" expanded="true" />
+                <element signature="e#12777#12783#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -115,8 +107,8 @@
       <file leaf-file-name="grid.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/vendors/css/grid.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="19">
-              <caret line="3" column="10" lean-forward="false" selection-start-line="3" selection-start-column="10" selection-end-line="3" selection-end-column="10" />
+            <state relative-caret-position="-1526">
+              <caret line="319" column="0" lean-forward="true" selection-start-line="319" selection-start-column="0" selection-end-line="319" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -132,11 +124,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="style.css" pinned="false" current-in-tab="true">
+      <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/resources/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="231">
-              <caret line="536" column="13" lean-forward="false" selection-start-line="536" selection-start-column="13" selection-end-line="536" selection-end-column="13" />
+            <state relative-caret-position="466">
+              <caret line="563" column="1" lean-forward="true" selection-start-line="563" selection-start-column="1" selection-end-line="563" selection-end-column="1" />
               <folding />
             </state>
           </provider>
@@ -275,8 +267,8 @@
       <list>
         <option value="$PROJECT_DIR$/main.html" />
         <option value="$PROJECT_DIR$/index.php" />
-        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/resources/css/style.css" />
+        <option value="$PROJECT_DIR$/index.html" />
       </list>
     </option>
   </component>
@@ -287,7 +279,8 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="3" />
+    <option name="x" value="-12" />
+    <option name="y" value="6" />
     <option name="width" value="1276" />
     <option name="height" value="756" />
   </component>
@@ -382,24 +375,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="resources" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Yesfood" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Yesfood" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="resources" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="img" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -575,15 +550,15 @@
       <workItem from="1498436510102" duration="2524000" />
       <workItem from="1498453367034" duration="31068000" />
       <workItem from="1498547478239" duration="34043000" />
-      <workItem from="1498880980621" duration="12160000" />
+      <workItem from="1498880980621" duration="20797000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="95863000" />
+    <option name="totallyTimeSpent" value="104500000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="3" y="0" width="1276" height="756" extended-state="6" />
+    <frame x="-12" y="6" width="1276" height="756" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16733068" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -678,7 +653,7 @@
             <element signature="e#9940#9946#1" expanded="true" />
             <element signature="e#12043#12049#1" expanded="true" />
             <element signature="e#12275#12281#0" expanded="true" />
-            <element signature="e#12649#12655#0" expanded="true" />
+            <element signature="e#12777#12783#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -730,7 +705,7 @@
             <element signature="e#9940#9946#1" expanded="true" />
             <element signature="e#12043#12049#1" expanded="true" />
             <element signature="e#12275#12281#0" expanded="true" />
-            <element signature="e#12649#12655#0" expanded="true" />
+            <element signature="e#12777#12783#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -797,7 +772,7 @@
             <element signature="e#9940#9946#1" expanded="true" />
             <element signature="e#12043#12049#1" expanded="true" />
             <element signature="e#12275#12281#0" expanded="true" />
-            <element signature="e#12649#12655#0" expanded="true" />
+            <element signature="e#12777#12783#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -844,7 +819,7 @@
             <element signature="e#9940#9946#1" expanded="true" />
             <element signature="e#12043#12049#1" expanded="true" />
             <element signature="e#12275#12281#0" expanded="true" />
-            <element signature="e#12649#12655#0" expanded="true" />
+            <element signature="e#12777#12783#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -960,14 +935,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/vendors/css/grid.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="19">
-          <caret line="3" column="10" lean-forward="false" selection-start-line="3" selection-start-column="10" selection-end-line="3" selection-end-column="10" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/vendors/css/ionicons.min.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-8873">
@@ -984,26 +951,34 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/vendors/css/grid.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1526">
+          <caret line="319" column="0" lean-forward="true" selection-start-line="319" selection-start-column="0" selection-end-line="319" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="466">
+          <caret line="563" column="1" lean-forward="true" selection-start-line="563" selection-start-column="1" selection-end-line="563" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="356">
-          <caret line="416" column="31" lean-forward="false" selection-start-line="416" selection-start-column="31" selection-end-line="416" selection-end-column="31" />
+        <state relative-caret-position="219">
+          <caret line="418" column="64" lean-forward="false" selection-start-line="418" selection-start-column="64" selection-end-line="418" selection-end-column="64" />
           <folding>
             <element signature="e#1136#1143#0" expanded="true" />
             <element signature="e#3931#3938#0" expanded="true" />
             <element signature="e#9940#9946#1" expanded="true" />
             <element signature="e#12043#12049#1" expanded="true" />
             <element signature="e#12275#12281#0" expanded="true" />
-            <element signature="e#12649#12655#0" expanded="true" />
+            <element signature="e#12777#12783#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/css/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="231">
-          <caret line="536" column="13" lean-forward="false" selection-start-line="536" selection-start-column="13" selection-end-line="536" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>

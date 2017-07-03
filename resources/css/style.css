@@ -512,7 +512,7 @@ input[type=checkbox] {
   margin: 10px 10px 10px 0;
 }
 
-*:focus {
+.form-contact:focus {
   outline-width: medium;
   outline-color: #E67E22;
   -moz-outline-radius: 15px;
@@ -530,21 +530,47 @@ footer {
 }
 
 .contact-me {
-  color: white;
+  color: #cdcdcd;
 }
 
 .contact-icons {
-  width: 50%;
-  margin-left: 100px;
+  position: relative;
+  left: 25%;
 }
+
 .contact-icons li {
   list-style: none;
   float: left;
-  margin: 30px 50px 30px 50px;
+  margin: 20px 50px;
 }
 
-.contact-icons li a {
-  color: white;
-  font-size: 300%;
+.contact-icons a {
+  font-size: 250%;
+  color: #ffffff;
+  transition: color 0.2s;
+}
+
+
+.icon-github:hover {
+  color: #7d48bf;
+}
+
+.icon-linkedin:hover {
+  color: #0076b0;
+}
+
+.icon-email:hover {
+  color: #c9ca29;
+}
+
+.icon-weibo:hover {
+  color: #d60a29;
+}
+
+.copyright-box {
+  color: #cdcdcd;
+  font-size: 70%;
+  text-align: right;
+  margin-top: 20px;
 }
 
