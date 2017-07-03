@@ -1,3 +1,6 @@
+@media only screen and (max-width: 1280px) {
+
+}
 /* Big tablet to 1200px (width is smaller than 1140px) */
 @media only screen and (max-width: 1200px) {
   .hero-text-box {
