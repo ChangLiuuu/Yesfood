@@ -1,62 +1,62 @@
-@media only screen and (max-width: 1280px) {
+/*@media only screen and (max-width: 1280px) {*/
+  /**/
+/*}*/
+/*!* Big tablet to 1200px (width is smaller than 1140px) *!*/
+/*@media only screen and (max-width: 1200px) {*/
+  /*.hero-text-box {*/
+    /*width: 100%;*/
+    /*padding: 0 2%;*/
+  /*}*/
 
-}
-/* Big tablet to 1200px (width is smaller than 1140px) */
-@media only screen and (max-width: 1200px) {
-  .hero-text-box {
-    width: 100%;
-    padding: 0 2%;
-  }
+  /*.row {*/
+    /*padding: 0 2%;*/
+  /*}*/
 
-  .row {
-    padding: 0 2%;
-  }
+  /*.contact-icons li {*/
+    /*margin: 10px 40px;*/
+  /*}*/
+/*}*/
+/*@media only screen and (max-width: 1100px) {*/
 
-  .contact-icons li {
-    margin: 10px 40px;
-  }
-}
-@media only screen and (max-width: 1100px) {
+  /*body { font-size: 18px; }*/
+  /*section { padding: 60px 0 }*/
 
-  body { font-size: 18px; }
-  section { padding: 60px 0 }
-
-  .app-steps {
-    margin: 40px;
-  }
-  .app-steps:first-child {
-    margin-top: -50px;
-  }
-  .btn-app img {
-    margin-top: -20px;
-    width: auto;
-  }
+  /*.app-steps {*/
+    /*margin: 40px;*/
+  /*}*/
+  /*.app-steps:first-child {*/
+    /*margin-top: -50px;*/
+  /*}*/
+  /*.btn-app img {*/
+    /*margin-top: -20px;*/
+    /*width: auto;*/
+  /*}*/
 
 
-}
+/*}*/
 
-@media only screen and (max-width: 1060px) {
-  body { font-size: 15px; }
-  section { padding: 20px 0 }
+/*@media only screen and (max-width: 1060px) {*/
+  /*body { font-size: 15px; }*/
+  /*section { padding: 20px 0 }*/
 
-  .row {
-    padding: 0 2%;
-  }
+  /*.row {*/
+    /*padding: 0 2%;*/
+  /*}*/
 
-}
-/* Small tablet to big tablet (width from 768px to 1023px) */
-@media only screen and (max-width: 375px) {
-  body { font-size: 7px; }
-  section { padding: 10px 0 }
+/*}*/
+/*!* Small tablet to big tablet (width from 768px to 1023px) *!*/
+/*@media only screen and (max-width: 375px) {*/
+  /*body { font-size: 7px; }*/
+  /*section { padding: 10px 0 }*/
 
-  .contact-icons li {
-    margin: 10px 40px;
-  }
+  /*.contact-icons li {*/
+    /*margin: 10px 40px;*/
+  /*}*/
 
-  .row{
-    width: 100%;
-  }
+  /*.row{*/
+    /*width: 100%;*/
+  /*}*/
 
-}
+/*}*/
 
-/* Small tablet to big tablet (width from 481px to 767px) */
+/*!* Small tablet to big tablet (width from 481px to 767px) *!*/
