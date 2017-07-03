@@ -6,7 +6,6 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  overflow: hidden;
 }
 
 html {
@@ -536,8 +535,7 @@ footer {
 }
 
 .contact-icons {
-  position: relative;
-  left: 25%;
+  width: 50%;
 }
 
 .contact-icons li {
