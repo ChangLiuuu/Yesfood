@@ -1,62 +1,452 @@
-/*@media only screen and (max-width: 1280px) {*/
-  /**/
-/*}*/
-/*!* Big tablet to 1200px (width is smaller than 1140px) *!*/
-/*@media only screen and (max-width: 1200px) {*/
-  /*.hero-text-box {*/
-    /*width: 100%;*/
-    /*padding: 0 2%;*/
-  /*}*/
+/* Big tablet to 1200px (1024px - 1200px) */
+@media only screen and (max-width: 1200px) {
+  .hero-text-box {
+    width: 100%;
+    padding: 0 2%;
+  }
 
-  /*.row {*/
-    /*padding: 0 2%;*/
-  /*}*/
+  .row {
+    padding: 0 2%;
+  }
 
-  /*.contact-icons li {*/
-    /*margin: 10px 40px;*/
-  /*}*/
-/*}*/
-/*@media only screen and (max-width: 1100px) {*/
+  .contact-icons li {
+    margin: 10px 40px;
+  }
+}
+@media only screen and (max-width: 1100px) {
 
-  /*body { font-size: 18px; }*/
-  /*section { padding: 60px 0 }*/
+  body { font-size: 18px; }
+  section { padding: 60px 0 }
 
-  /*.app-steps {*/
-    /*margin: 40px;*/
-  /*}*/
-  /*.app-steps:first-child {*/
-    /*margin-top: -50px;*/
-  /*}*/
-  /*.btn-app img {*/
-    /*margin-top: -20px;*/
-    /*width: auto;*/
-  /*}*/
+  .app-steps {
+    margin: 40px;
+  }
+  .app-steps:first-child {
+    margin-top: -50px;
+  }
+  .btn-app img {
+    margin-top: -20px;
+    height: 40px;
+    width: auto;
+  }
 
 
-/*}*/
+}
 
-/*@media only screen and (max-width: 1060px) {*/
-  /*body { font-size: 15px; }*/
-  /*section { padding: 20px 0 }*/
+@media only screen and (max-width: 1060px) {
+  body { font-size: 15px; }
+  section { padding: 20px 0 }
 
-  /*.row {*/
-    /*padding: 0 2%;*/
-  /*}*/
+  .row {
+    padding: 0 2%;
+  }
 
-/*}*/
-/*!* Small tablet to big tablet (width from 768px to 1023px) *!*/
-/*@media only screen and (max-width: 375px) {*/
-  /*body { font-size: 7px; }*/
-  /*section { padding: 10px 0 }*/
+  .app-steps div {
+    display: inline-block;
+    border: 2px solid #E67E22;
+    height: 45px;
+    width: 45px;
+    border-radius: 50%;
+    text-align: center;
+    padding: 5px;
+    font-size: 150%;
+    color: #E67E22;
+    margin-right: 20px;
+  }
 
-  /*.contact-icons li {*/
-    /*margin: 10px 40px;*/
-  /*}*/
+}
+/* Small tablet to big tablet (width from 768px to 1023px) */
+@media only screen and (max-width: 1023px) {
+  body { font-size: 15px; }
+  section { padding: 20px 0 }
 
-  /*.row{*/
-    /*width: 100%;*/
-  /*}*/
+  .row {
+    padding: 0 2%;
+  }
 
-/*}*/
+  /*-- header --*/
+  .logo {
+    height: 50px;
+    margin-top: 30px;
+  }
 
-/*!* Small tablet to big tablet (width from 481px to 767px) *!*/
+  /*-- how it works --*/
+  .step-box {
+    margin-top: 70px;
+    padding-left: 0;
+  }
+
+
+  .app-steps div {
+    display: inline-block;
+    border: 1px solid #E67E22;
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    text-align: center;
+    padding: 3px;
+    font-size: 130%;
+    color: #E67E22;
+    margin-right: 10px;
+  }
+
+
+  .app-steps:last-of-type {
+    margin-bottom: 40px;
+  }
+
+  .btn-app img {
+    height: 40px;
+    width: auto;
+  }
+
+  .section-how-it-works a {
+    padding-left:  90px;
+  }
+
+  /*-- plans --*/
+  .section-plan {
+    background-color: #f0f0f0;
+    margin-top: -60px;
+    padding: 50px 0;
+  }
+
+  .plan-box {
+    background-color: white;
+    border: 1px solid #f0f0f0;
+    border-radius: 13px;
+    box-shadow: 5px 5px 50px #8b8b8b;
+    width: 90%;
+    margin: 0 5%;
+  }
+
+  .plan-box div {
+    border-bottom: 1px solid #F0F0F0;
+    margin: 2px;
+    padding: 5px 20px;
+  }
+
+  .plan-box div:last-child {
+    text-align: center;
+    padding: 15px;
+    border-bottom: none;
+  }
+
+  .plan-box ul {
+    list-style: none;
+    font-size: 90%;
+  }
+
+  .plan-price {
+    font-size: 270%;
+    color: #E67E22;
+    font-weight: 200;
+    padding-bottom: 10px;
+  }
+
+  .plan-price span {
+    font-size: 45%;
+    color: #E67E22;
+  }
+
+  .plan-per-meal-price {
+    font-size: 80%;
+  }
+
+  .plan-per-meal-price span {
+    font-size: 105%;
+    color: #E67E22;
+  }
+
+  .icon-check {
+    font-size: 180%;
+    font-weight: 300;
+    color: #E67E22;
+    vertical-align: middle;
+    margin-right: 10px;
+    margin-left: -10px;
+  }
+
+  .plan-box a {
+    margin: 0px;
+    text-align: center;
+    width: 70%;
+  }
+
+  .section-plan .btn {
+    width: 80%;
+  }
+
+  /*-- footer --*/
+  footer {
+    padding: 20px 0;
+  }
+
+  .contact-icons {
+    position: relative;
+    left: 30px;
+  }
+  .contact-icons li {
+    list-style: none;
+    float: left;
+    margin: 10px 30px;
+  }
+  .contact-icons a {
+    font-size: 200%;
+  }
+
+}
+
+/* Small tablet to big tablet (width from 481px to 767px) */
+@media only screen and (max-width: 767px) {
+  body { font-size: 15px; }
+  section { padding: 20px 0 }
+
+  .row {
+    padding: 0 2%;
+  }
+
+  /*-- how it works --*/
+  .section-how-it-works {
+    padding: 20px;
+  }
+
+  .app-steps div {
+    display: inline-block;
+    border: 1px solid #E67E22;
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    text-align: center;
+    padding: 7px;
+    font-size: 130%;
+    color: #E67E22;
+    margin-right: 10px;
+  }
+
+  .pic-box {
+    margin-top: 10px;
+    text-align: center;
+
+  }
+
+  .step-box {
+    margin-top: 70px;
+    padding-left: 0;
+  }
+
+  .app-screen {
+    width: 40%;
+  }
+
+  .app-steps {
+    margin-bottom: 20px;
+  }
+
+  .app-steps:last-of-type {
+    margin-bottom: 40px;
+  }
+
+  .btn-app img {
+    height: 30px;
+    width: auto;
+    margin: 0 15px;
+  }
+
+}
+/* Small phones: from 0 to 480px */
+@media only screen and (max-width: 480px) {
+  body { font-size: 10px; overflow: hidden;}
+  section { padding: 0px 0; margin: 20px 0;}
+
+  h2 {
+    font-size: 130%;
+  }
+  h2:after {
+    display: block;
+    width: 200px;
+    height: 2px;
+    margin: 0px auto;
+    margin-top: 20px;
+    background-color: #E67E22;
+    content: " ";
+  }
+
+  h3 {
+    margin: 1.5% 0;
+    margin-top: 0;
+  }
+
+  .row {
+    width: 100%;
+    margin-bottom: 2%;
+  }
+
+
+
+  /*-- header --*/
+  .logo {
+    height: 40px;
+    with: auto;
+    margin-top: 30px;
+  }
+
+  .main-nav li {
+    display: inline-block;
+    margin-left: 20px;
+  }
+
+  .hero-text-box {
+    padding-left: 40px;
+  }
+
+  /*-- features --*/
+  .section-feature {
+    margin: 10px 0;
+    padding-bottom: 0;
+  }
+
+ .section-feature i {
+   margin-top: 2%;
+ }
+
+  /*-- places --*/
+  .box h3 {
+    margin-left: 20px;
+  }
+
+  .box img {
+    width: 90%;
+    height: auto;
+    margin: 10px auto;
+  }
+
+  .city-features {
+    margin-top: 10px;
+  }
+
+  .city-features p {
+    padding-left: 20px;
+    font-size: 90%;
+  }
+  .icon-small {
+    margin-left: 20px;
+    margin-right: 10px;
+  }
+
+
+  /*-- how it works --*/
+  .section-how-it-works {
+    padding: 20px;
+  }
+
+  .app-steps div {
+    display: inline-block;
+    border: 1px solid #E67E22;
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    text-align: center;
+    padding: 7px;
+    font-size: 130%;
+    color: #E67E22;
+    margin-right: 10px;
+  }
+
+  .pic-box {
+    margin-top: 10px;
+    text-align: center;
+
+  }
+
+  .step-box {
+    margin-top: 70px;
+    padding-left: 0;
+  }
+
+  .app-screen {
+    width: 40%;
+  }
+
+  .app-steps {
+    margin-bottom: 20px;
+  }
+
+  .app-steps:last-of-type {
+    margin-bottom: 40px;
+  }
+
+  .btn-app img {
+    height: 30px;
+    width: auto;
+    margin: 0 30px;
+  }
+
+
+  /*-- comments --*/
+
+  .section-comments {
+    padding: 40px 0;
+  }
+
+  .section-comments cite img {
+    height: 40px;
+    margin-right: 10px;
+  }
+
+  .section-comments cite {
+    margin-top: 5%;
+  }
+
+  /*-- plans --*/
+  .section-plan {
+    padding: 20px 0;
+  }
+
+  .plan-box {
+    box-shadow: 5px 5px 50px #8b8b8b;
+    width: 80%;
+    margin: 3% auto;
+
+  }
+
+  .plan-box div {
+    padding: 5px 20px;
+  }
+
+  .plan-box div:last-child {
+    padding: 10px 20px;
+  }
+
+  /*-- contacts --*/
+  .form-contact {
+    width: 80%;
+    margin: 0 auto;
+  }
+
+  .section-contact textarea {
+    width: 100%;
+  }
+
+  .section-contact input[type=submit] {
+    margin-left: 100px;
+  }
+
+  /*-- footer --*/
+  footer {
+    padding: 20px 0;
+  }
+
+  .contact-icons {
+    position: relative;
+    left: 30px;
+  }
+  .contact-icons li {
+    list-style: none;
+    float: left;
+    margin: 10px 30px;
+  }
+  .contact-icons a {
+    font-size: 200%;
+  }
+}
