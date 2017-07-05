@@ -70,6 +70,12 @@
     margin-top: 30px;
   }
 
+
+  /*-- sticky nav --*/
+  .sticky {
+    margin: ;
+  }
+
   /*-- how it works --*/
   .step-box {
     margin-top: 70px;
@@ -98,11 +104,10 @@
   .btn-app img {
     height: 40px;
     width: auto;
+    margin-top: 30px;
+    margin-left: 20px;
   }
 
-  .section-how-it-works a {
-    padding-left:  90px;
-  }
 
   /*-- plans --*/
   .section-plan {
@@ -197,13 +202,34 @@
 
 }
 
-/* Small tablet to big tablet (width from 481px to 767px) */
-@media only screen and (max-width: 767px) {
+/* Small tablet to big tablet (width from 520px to 767px) */
+@media only screen and (max-width: 800px) {
   body { font-size: 15px; }
   section { padding: 20px 0 }
 
   .row {
     padding: 0 2%;
+  }
+
+  /*-- main nav --*/
+  .main-nav li {
+    font-size: 80%;
+  }
+  /*-- sticky nav --*/
+
+  .sticky .main-nav li {
+    margin: 5px 18px;
+    margin-top: 12px;
+  }
+
+
+  .sticky .logo-orange {
+    height: 25px;
+    margin-top: 6px;
+  }
+
+  .sticky .main-nav li a {
+    font-size: 70%;
   }
 
   /*-- how it works --*/
@@ -212,15 +238,10 @@
   }
 
   .app-steps div {
-    display: inline-block;
-    border: 1px solid #E67E22;
     height: 30px;
     width: 30px;
-    border-radius: 50%;
-    text-align: center;
     padding: 7px;
     font-size: 130%;
-    color: #E67E22;
     margin-right: 10px;
   }
 
@@ -253,9 +274,19 @@
     margin: 0 15px;
   }
 
+  .contact-icons {
+    width: 90%;
+  }
+
+  .contact-icons li {
+    list-style: none;
+    float: left;
+    margin: 20px 30px;
+  }
+
 }
-/* Small phones: from 0 to 480px */
-@media only screen and (max-width: 480px) {
+/* Small phones: from 376px to 520px */
+@media only screen and (max-width: 520px) {
   body { font-size: 10px; overflow: hidden;}
   section { padding: 0px 0; margin: 20px 0;}
 
@@ -300,6 +331,23 @@
     padding-left: 40px;
   }
 
+  /*-- sticky navi --*/
+  .sticky .main-nav li {
+    margin: 8px 15px;
+    margin-top: 12px;
+  }
+
+  .sticky .logo { display: none; }
+
+  .sticky .logo-orange {
+    height: 25px;
+    margin-top: 6px;
+  }
+
+  .sticky .main-nav li a {
+    font-size: 100%;
+  }
+
   /*-- features --*/
   .section-feature {
     margin: 10px 0;
@@ -317,7 +365,6 @@
 
   .box img {
     width: 90%;
-    height: auto;
     margin: 10px auto;
   }
 
@@ -341,15 +388,12 @@
   }
 
   .app-steps div {
-    display: inline-block;
     border: 1px solid #E67E22;
     height: 30px;
     width: 30px;
     border-radius: 50%;
-    text-align: center;
     padding: 7px;
     font-size: 130%;
-    color: #E67E22;
     margin-right: 10px;
   }
 
@@ -446,5 +490,38 @@
   }
   .contact-icons a {
     font-size: 200%;
+  }
+}
+
+/*iPhone 5 Small phones: width from 0 to 375px */
+@media only screen and (max-width: 375px) {
+  /*-- main navi --*/
+  .main-nav li {
+    font-size: 80%;
+    padding-left: 2px;
+  }
+
+.logo {
+    height: 30px;
+  }
+
+  /*-- sticky navi --*/
+  .sticky .main-nav li {
+    font-size: 60%;
+    padding-left: 0;
+  }
+
+  .sticky .logo-orange {
+    height: 20px;
+  }
+
+  /*-- contact --*/
+  .section-contact input[type=submit] {
+    margin-left: 70px;
+  }
+
+  /*-- footer --*/
+  .contact-icons li {
+    margin: 10px 20px;
   }
 }

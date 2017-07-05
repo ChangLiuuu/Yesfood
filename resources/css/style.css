@@ -229,6 +229,7 @@ header {
   top:0;
   background: #2D2D2D;
   box-shadow: 0 1px 30px #000000;
+  z-index: 9999;
 }
 
 .sticky .main-nav li {
@@ -355,7 +356,11 @@ header {
 .btn-app img {
   height: 50px;
   width: auto;
-  margin: 0 15px;
+  margin: 10px 15px;
+}
+
+.row-app {
+  margin-bottom: 0;
 }
 
 /* --------------------------------- */

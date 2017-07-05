@@ -1,18 +1,18 @@
 $(document).ready(function () {
 
-    $('.js--section-feacture').waypoint(function (direction) {
+    $('.js--section-feature').waypoint(function (direction) {
         if (direction === "down") {
-            $('nav').addClass('.sticky');
+            $('nav').addClass('sticky');
         } else {
-            $('nav').removeClass('.sticky');
+            $('nav').removeClass('sticky');
         }
     }, {
-        offset: '60px;'
+        offset: '120px'
     });
 
-    // $('h1').click(function () {
-    //     $(this).css('background-color', 'red');
-    // })
+    $('h1').click(function () {
+        $(this).css('background-color', 'red');
+    });
 
 
     /*
