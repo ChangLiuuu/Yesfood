@@ -311,7 +311,7 @@
  }
 
   /*-- places --*/
-  .box h3 {
+  .section-cities .box h3 {
     margin-left: 20px;
   }
 
@@ -376,10 +376,8 @@
     margin-bottom: 40px;
   }
 
-  .btn-app img {
-    height: 30px;
-    width: auto;
-    margin: 0 30px;
+  .btn-row a{
+    margin: 0 20px;
   }
 
 
