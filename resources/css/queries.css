@@ -27,7 +27,6 @@
   .btn-app img {
     margin-top: -20px;
     height: 40px;
-    width: auto;
   }
 
 
@@ -42,15 +41,12 @@
   }
 
   .app-steps div {
-    display: inline-block;
     border: 2px solid #E67E22;
     height: 45px;
     width: 45px;
     border-radius: 50%;
-    text-align: center;
     padding: 5px;
     font-size: 150%;
-    color: #E67E22;
     margin-right: 20px;
   }
 
@@ -85,15 +81,12 @@
 
 
   .app-steps div {
-    display: inline-block;
     border: 1px solid #E67E22;
     height: 30px;
     width: 30px;
     border-radius: 50%;
-    text-align: center;
     padding: 3px;
     font-size: 130%;
-    color: #E67E22;
     margin-right: 10px;
   }
 
@@ -104,7 +97,6 @@
 
   .btn-app img {
     height: 40px;
-    width: auto;
     margin-top: 30px;
     margin-left: 20px;
   }
@@ -112,13 +104,11 @@
 
   /*-- plans --*/
   .section-plan {
-    background-color: #f0f0f0;
     margin-top: -60px;
     padding: 50px 0;
   }
 
   .plan-box {
-    background-color: white;
     border: 1px solid #f0f0f0;
     border-radius: 13px;
     box-shadow: 5px 5px 50px #8b8b8b;
@@ -133,26 +123,21 @@
   }
 
   .plan-box div:last-child {
-    text-align: center;
     padding: 15px;
-    border-bottom: none;
   }
 
   .plan-box ul {
-    list-style: none;
     font-size: 90%;
   }
 
   .plan-price {
     font-size: 270%;
-    color: #E67E22;
     font-weight: 200;
     padding-bottom: 10px;
   }
 
   .plan-price span {
     font-size: 45%;
-    color: #E67E22;
   }
 
   .plan-per-meal-price {
@@ -161,13 +146,11 @@
 
   .plan-per-meal-price span {
     font-size: 105%;
-    color: #E67E22;
   }
 
   .icon-check {
     font-size: 180%;
     font-weight: 300;
-    color: #E67E22;
     vertical-align: middle;
     margin-right: 10px;
     margin-left: -10px;
@@ -295,18 +278,16 @@
     font-size: 130%;
   }
   h2:after {
-    display: block;
     width: 200px;
     height: 2px;
-    margin: 0px auto;
     margin-top: 20px;
     background-color: #E67E22;
     content: " ";
   }
 
   h3 {
-    margin: 1.5% 0;
-    margin-top: 0;
+    margin: 0 0 1.5% 0;
+
   }
 
   .row {
@@ -319,12 +300,10 @@
   /*-- header --*/
   .logo {
     height: 40px;
-    with: auto;
     margin-top: 30px;
   }
 
   .main-nav li {
-    display: inline-block;
     margin-left: 20px;
   }
 
@@ -481,12 +460,9 @@
   }
 
   .contact-icons {
-    position: relative;
     left: 30px;
   }
   .contact-icons li {
-    list-style: none;
-    float: left;
     margin: 10px 30px;
   }
   .contact-icons a {
