@@ -258,11 +258,11 @@ header {
 /* --------------------------------- */
 
 .section-feature {
-  margin: 60px 0;
+  padding: 60px 0;
 }
 
 .section-feature .head-paragraph {
-  margin-bottom: 30px;
+  padding-bottom: 30px;
 }
 
 /* --------------------------------- */
@@ -590,6 +590,13 @@ footer {
   transition: color 0.2s;
 }
 
+.my-email {
+  color: #ffffff;
+  font-size: 110%;
+  margin-left: 30px;
+  letter-spacing: 1px;
+
+}
 
 .icon-github:hover {
   color: #7d48bf;
@@ -613,4 +620,3 @@ footer {
   text-align: right;
   margin-top: 20px;
 }
-

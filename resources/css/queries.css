@@ -72,9 +72,10 @@
 
 
   /*-- sticky nav --*/
-  .sticky {
-    margin: ;
+  .sticky .main-nav li {
+    margin: 13px 30px;
   }
+
 
   /*-- how it works --*/
   .step-box {
@@ -173,7 +174,7 @@
   }
 
   .plan-box a {
-    margin: 0px;
+    margin: 0;
     text-align: center;
     width: 70%;
   }
@@ -202,7 +203,7 @@
 
 }
 
-/* Small tablet to big tablet (width from 520px to 767px) */
+/* Small tablet to big tablet (width from 520px to 800px) */
 @media only screen and (max-width: 800px) {
   body { font-size: 15px; }
   section { padding: 20px 0 }
@@ -213,15 +214,14 @@
 
   /*-- main nav --*/
   .main-nav li {
-    font-size: 80%;
+    font-size: 100%;
+    margin-left: 20px;
   }
   /*-- sticky nav --*/
 
   .sticky .main-nav li {
-    margin: 5px 18px;
-    margin-top: 12px;
+    margin: 13px 20px;
   }
-
 
   .sticky .logo-orange {
     height: 25px;
@@ -285,10 +285,11 @@
   }
 
 }
+
 /* Small phones: from 376px to 520px */
 @media only screen and (max-width: 520px) {
-  body { font-size: 10px; overflow: hidden;}
-  section { padding: 0px 0; margin: 20px 0;}
+  body { font-size: 10px; overflow: hidden; }
+  section { padding:0; margin: 20px 0; }
 
   h2 {
     font-size: 130%;
@@ -333,14 +334,14 @@
 
   /*-- sticky navi --*/
   .sticky .main-nav li {
-    margin: 8px 15px;
+    margin: 8px 8px;
     margin-top: 12px;
   }
 
   .sticky .logo { display: none; }
 
   .sticky .logo-orange {
-    height: 25px;
+    height: 30px;
     margin-top: 6px;
   }
 
@@ -507,7 +508,7 @@
 
   /*-- sticky navi --*/
   .sticky .main-nav li {
-    font-size: 60%;
+    font-size: 80%;
     padding-left: 0;
   }
 
